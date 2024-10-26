@@ -1,0 +1,12 @@
+PRETRAINED_MODEL: "albert-base-v2"
+FINETUNE: False
+DEVICE: "cuda"
+USE_ALL_SAMPLES: False
+NUM_SAMPLES: 1000
+N_EPOCHS: 5
+BATCH_SIZE: 32
+WARMUP_STEPS: 10
+WEIGHT_DECAY: 0.01
+LEARNING_RATE: 0.001
+BASE_RES_PATH: "/usr/users/cei2023_2024_sondra_cself/coscoy_rem/Documents/nlp_tp/logs"
+PREPROCESS_PATH: "preprocessed_snli"
